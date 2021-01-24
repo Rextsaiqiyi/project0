@@ -1,0 +1,63 @@
+$hcolor: blue;
+$lcolor: blue;
+
+h1 {
+    color: $hcolor;
+    text-align: center;
+    font-weight: bold;
+}
+
+li {
+    color: $lcolor;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+div {
+    font-size: 24px;
+
+    p {
+      color:orange;
+    }
+
+    ul {
+      color:$lcolor;
+    }
+}
+
+@media (min-width:700px) {
+    h1::before {
+        content: "Welcome to My Webpage";
+    }
+}
+
+@media (max-width:699px) {
+    h1::before {
+        content: "Welcome";
+    }
+}
+
+%message {
+      font-family: sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      border: 1px solid black;
+      padding: 20px;
+      margin: 20px;
+}
+
+.profile {
+    @extend %message;
+    background-color: #b3ffff;
+}
+
+.Academic {
+    @extend %message;
+    background-color: #ff99ff;
+}
+
+.Interest {
+    @extend %message;
+    background-color: #ffcc66;
+}

@@ -1,0 +1,42 @@
+h1 {
+  color: blue;
+  text-align: center;
+  font-weight: bold; }
+
+li {
+  color: blue;
+  font-family: Arial,sans-serif;
+  font-size: 20px;
+  font-weight: bold; }
+
+div {
+  font-size: 24px; }
+  div p {
+    color: orange; }
+  div ul {
+    color: blue; }
+
+@media (min-width: 700px) {
+  h1::before {
+    content: "Welcome to My Webpage"; } }
+@media (max-width: 699px) {
+  h1::before {
+    content: "Welcome"; } }
+.profile, .Academic, .Interest {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.profile {
+  background-color: #b3ffff; }
+
+.Academic {
+  background-color: #ff99ff; }
+
+.Interest {
+  background-color: #ffcc66; }
+
+/*# sourceMappingURL=variable.css.map */
