@@ -1,12 +1,79 @@
+
+p::selection {
+    color: orange;
+    background-color: blue;
+}
+p {
+    text-align: center;
+}
+
+.row > div {
+    padding: 20px;
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
 h1 {
     color: blue;
     text-align: center;
     font-weight: bold;
 }
 
+h2 {
+    color: #009933;
+    text-align: center;
+    font-weight: bold;
+}
+
+ol > li {
+    color: blue;
+}
+
 li {
     color: green;
     font-family: Arial,sans-serif;
-    font-size: 28px;
+    font-size: 20px;
     font-weight:bold;
 }
+table {
+       border: 2px solid black;
+       border-collapse: collapse;
+       width: 40%;
+}
+
+th, td {
+        border: 1px solid black;
+        padding: 5px;
+}
+
+th {
+    background-color: lightgray;
+}
+
+.name {
+      font-weight: bold;
+}
+
+button {
+      width : 200px;
+      height: 50px;
+      font-size: 24px;
+      background-color: green;
+}
+
+button:hover {
+      background-color: orange;
+}
+
+@media (min-width:700px) {
+    h1::before {
+        content: "Welcome to My Webpage";
+    }
+}
+
+@media (max-width:699px) {
+    h1::before {
+        content: "Welcome";
+    }
+}
+
