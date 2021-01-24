@@ -4,11 +4,7 @@ Hi, my name is Qiyi Cai
 
 This is the project of my webpages
 
-This webpage includes 4 htmls, which are:
-   mainpage.html
-   profile.html
-   table.html
-   interest.html
+This webpage includes 4 htmls, which are: mainpage.html, profile.html, table.html, and interest.html
 
 The mainpage.html is the mainpage of my webpages.
 The profile.html is the page of my profile.
